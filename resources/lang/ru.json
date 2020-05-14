@@ -1,0 +1,53 @@
+{
+    "Dashboard": "Панель управления",
+    "Logout": "Выход",
+    "You are logged in!": "Вы вошли!",
+    "Toggle navigation": "Переключить навигацию",
+    "Create masterpiece!": "Создать!",
+
+    "You are receiving this email because we received a password reset request for your account.":
+        "Получен запрос на сброс пароля для вашего аккаунта.",
+    "Reset Password Notification": "Уведомление о запросе на сброс пароля",
+    "Reset Password": "Сброс пароля",
+    "If you did not request a password reset, no further action is required.": "Если вы не делали такой запрос, то никаких дальнейших действий не требуется.",
+
+    "Verify Email Address": "Проверка Email",
+    "Verify Your Email Address": "Проверка Вашего Email",
+    "Please click the button below to verify your email address.": "Пожалуйста, кликните на кнопке ниже, чтобы подтвердить свой email.",
+    "If you did not create an account, no further action is required.": "Если вы не создавали аккаунт, то никаких дальнейших действий не требуется.",
+    "A fresh verification link has been sent to your email address.": "Код подтверждения регистрации отправлен на ваш email.",
+    "Before proceeding, please check your email for a verification link.": "Прежде чем продолжить, пожалуйста, проверьте свой email для получения кода подтверждения регистрации.",
+    "If you did not receive the email": "Если вы не получили наше письмо",
+    "click here to request another": "нажмите здесь для повторной отправки",
+
+    "Hello!": "Привет!",
+    "Whoops!": "Ой!",
+    "Regards": "С уважением",
+    "If you’re having trouble clicking the \":actionText\" button, copy and paste the URL below\ninto your web browser: [:actionURL](:actionURL)":
+        "Если у вас не получается кликнуть на кнопку \":actionText\", то скопируйте в ваш браузер ссылку, расположенную ниже:\n [:actionURL](:actionURL)",
+    "All rights reserved.": " ",
+
+    "Activate Account!": "Активация аккаунта!",
+    "Hi, %s": "Привет, %s",
+    "We just noticed that you created a new account. You will need to activate your account to sign in into this account.":
+        "Вы создали новый аккаунт, теперь нужно его активировать.",
+    "Activate": "Активация",
+    "Thank you for using our application!": "Спасибо!",
+    "The account you are trying to login is not activated or it has been disabled.": "Аккаунт, в который вы пытаетесь войти, еще не активирован.",
+    "Congratulations! your account is registered, you will shortly receive an email to activate your account.":
+        "Поздравляем! Ваш аккаунт зарегистрирован, мы отправили вам email с кодом для его активации.",
+    "Your activation code is either expired or invalid.": "Ваш код активации просрочен или неверен.",
+    "Congratulations! your account is now activated.": "Поздравляем! Ваш аккаунт активирован!",
+
+    "Remember Me": "Запомнить меня",
+    "Login": "Войти",
+    "Password": "Пароль",
+    "New password": "Новый пароль",
+    "Register": "Регистрация",
+    "Name": "Имя",
+    "E-Mail Address": "Email",
+    "Forgot Your Password?": "Забыли пароль?",
+    "Confirm Password": "Подтвердить пароль",
+    "Reset Password": "Сброс пароля",
+    "Send Password Reset Link": "Выслать ссылку на сброс пароля"
+}

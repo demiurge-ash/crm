@@ -1,0 +1,39 @@
+.app-footer {
+    display: none
+}
+
+.readm-link{
+    display:none;
+}
+
+.readmore {
+  text-overflow: ellipsis;
+  overflow: hidden;    
+}
+
+.form-control, mce-content-body {
+    background-color: #fcfcfc;
+}
+
+.recipe-group, .body-recipe-group {
+    display: flow-root !important;
+}
+
+.body-recipe {
+    margin-bottom: 15px;
+}
+
+.body-image {
+    max-width:200px; 
+    height:auto; 
+    clear:both; 
+    display:block; 
+    padding:2px; 
+    border:1px solid #ddd; 
+    margin-right:10px; 
+    float:left
+}
+
+.voyager-boat:before {
+    content: " ";
+}

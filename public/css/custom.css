@@ -1,0 +1,212 @@
+body {
+    background: url('/img/background.jpg') no-repeat top center fixed;
+    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#order-template {
+    background-color: #fff;
+}
+
+hr.small {
+    width: 75%;
+}
+hr.full {
+    width: 90%;
+}
+hr.blue {
+    border-bottom: 1px solid #8dc6d1;
+}
+
+.glyphicon-calendar, .cursor-pointer {
+    cursor: pointer;
+}
+.cursor-disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+
+.opt-full-height {
+    height: 100vh;
+}
+
+.opt-flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.opt-position-ref {
+    position: relative;
+}
+
+.opt-content {
+    text-align: center;
+}
+
+.opt-title {
+    font-size: 36px;
+    padding: 20px;
+}
+
+.form-control[readonly], .form-control::placeholder {
+    border: 1px solid #ccc;
+    color: #888;
+}
+
+
+
+/* Autocomplete for Clients */
+
+.autocomplete-wrapper .list-group-item {
+    border: 1px solid #427b86;
+    color: #888;
+}
+.autocomplete-wrapper .list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: 0px;
+}
+.autocomplete-wrapper .list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.autocomplete-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+.autocomplete-wrapper .list-group {
+    margin-bottom: 0px;
+}
+.autocomplete-wrapper ol, .autocomplete-wrapper ul {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.autocomplete-wrapper .highlighted {
+    background-color: #eee;
+    color: #333;
+}
+
+
+
+/* Collapsed Menus */
+
+[aria-expanded="false"] .menu__icon--open {
+    display: inline-block;
+}
+
+[aria-expanded="false"] .menu__icon--close {
+    display: none;
+}
+
+[aria-expanded="true"] .menu__icon--open {
+    display: none;
+}
+
+[aria-expanded="true"] .menu__icon--close {
+    display: inline-block;
+}
+.icon-plus span {
+    line-height: 18px;
+    padding-left: 1px;
+}
+
+.icon-section {
+    position: relative;
+    padding-left: 40px;
+}
+.icon-plus {
+    line-height: 18px;
+    padding-left: 1px;
+    position: relative;
+}
+
+.collapse__button {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    width: 19px;
+    height: 19px;
+    margin-right: 20px;
+    transition: transform .2s ease-in-out,stroke .2s,-webkit-transform .2s ease-in-out;
+    will-change: transform,stroke;
+    stroke: #427b86;
+    fill: #fff;
+}
+.collapse__button-line {
+    transition: opacity .3s,stroke .3s;
+    will-change: opacity,stroke;
+    stroke: #427b86;
+}
+[aria-expanded="true"] .collapse__button {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.collapse__button {
+    stroke: #427b86;
+    fill: #fff;
+}
+[aria-expanded="true"] .collapse__button-line--horizontal {
+    opacity: 0;
+}
+
+.subnav-tabs_order {
+    border-bottom: 1px solid #8dc6d1;
+    padding: 0 0 10px;
+}
+.subnav-tabs_order > li > a {
+    height: 50px;
+    line-height: 50px;
+}
+
+.blinking{
+    animation:blinkingText 0.8s 7;
+}
+@keyframes blinkingText{
+    0%{     color: #FF0000;    }
+    50%{    color: #FFDDDD; }
+    100%{   color: #FF0000;    }
+}
+
+.square {
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.weekend {
+    background-color: #f2f2f2;
+}
+
+hr {
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgba(0,0,0,.9);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.9);
+}
+
+.datepicker--cell.-other-month-.-disabled- { color: #dedede; }
+.datepicker--cell.-disabled- { color: #4a4a4a; }
+.datepicker--cell.-current- { color: #4EB5E6; }
+.datepicker { width: inherit}
+.datepicker--cell { height: 50px; }
+
+.bootstrap-datetimepicker-widget tr:hover {
+    background-color: #808080;
+}

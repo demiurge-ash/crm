@@ -1,0 +1,285 @@
+body, a, a:hover, a:focus {
+    color: #373737;
+}
+
+.icon-help {
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    padding: 3px;
+    color: #707070;
+    text-decoration: none !important;
+}
+
+.icon-plus,
+.icon-plus:hover,
+.icon-plus:focus {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.icon-plus span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 1px solid #427b86;
+    line-height: 20px;
+    text-align: center;
+    color: #427b86;
+    text-decoration: none;
+}
+
+.collapse_show {
+    padding-top: 30px;
+}
+
+.text {
+    padding-top: 32px;
+    display: inline-block;
+
+}
+
+.text-form {
+    color: #427b86;
+    padding-top: 32px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.input-group-addon {
+    background-color: transparent;
+}
+
+.input-group-addon_help {
+
+}
+
+.input-group .form-control,
+.input-group .form-control:focus {
+    border-right: 0 solid #ccc;
+}
+
+label {
+    color: #427b86;
+    font-weight: 700;
+}
+
+.form-control,
+.input-group-addon {
+    color: #373737;
+    border-color: #427b86;
+    border-radius: 0;
+    box-shadow: none;
+}
+/*
+
+.input-group-addon_file {
+    padding: 13px 12px 0px 0;
+    border-color: transparent;
+}
+*/
+
+.checkbox-inline_file {
+    padding-top: 25px;
+}
+
+.radio-inline_file {
+    padding-top: 32px;
+}
+
+
+@media screen and (max-width: 640px){
+
+    .checkbox-inline_file,
+    .radio-inline_file {
+        padding-top: 5px;
+    }
+
+}
+
+*:focus,
+select:active, select:focus,
+option:active, option:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border: 1px solid #427b86;
+    /*outline: 0;*/
+    box-shadow: none;
+    background-color: #eeeeee;
+}
+
+.form-control,
+.form-control::placeholder {
+    color: #373737;
+    font-weight: 400;
+
+}
+
+.nav-tabs_order {
+    border-bottom: 1px solid #8dc6d1;
+    padding: 10px 0 10px;
+}
+
+.nav-tabs_order > li {
+    margin-bottom: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-tabs_order > li > a {
+    margin-right: 15px;
+    border: 0;
+    border-radius: 0;
+    background-color: #bdd8df;
+    /*  width: 170px;
+      width: 170px;*/
+    height: 85px;
+    line-height: 85px;
+    padding: 0;
+    text-align: center;
+    color: #373737;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-tabs_order > li:nth-child(even) a {
+        margin-right: 0;
+    }
+}
+
+.tab-content {
+    margin-bottom: 30px;
+}
+
+/*
+
+@media screen and (min-width: 667px) and (max-width: 768px){
+    .nav-tabs_order > li {
+        width: 50%;
+    }
+    .nav-tabs_order > li > a {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 667px){
+
+}
+*/
+
+.tab-pane {
+    padding-top: 30px;
+}
+
+.nav-tabs_order > li > a:focus,
+.nav-tabs_order > li > a:hover {
+    text-decoration: none;
+    background-color: #1b89a0;
+    color: #fff;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #1b89a0;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+
+}
+input[type=checkbox]{
+     margin: 0 5px 0 0;
+
+}
+label.radio-inline,
+label.checkbox-inline {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    font-weight: 700;
+}
+
+.radio-inline input[type=radio],
+.checkbox-inline input[type=checkbox] {
+    margin: 0 0 0 -30px;
+}
+
+
+
+.btn-light,
+.btn-green {
+    border-radius: 0;
+    color: #fff;
+    width: 100%;
+}
+
+.btn-light:hover,
+.btn-green:hover {
+    color: #fff;
+}
+
+.btn-light {
+    background-color: #ababab;
+}
+
+.btn-green {
+    background-color: #427b86;
+    margin-bottom: 25px;
+}
+
+/*
+@media screen and (max-width: 760px){
+
+    .btn-green {
+        margin-bottom: 10px;
+    }
+}*/
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.total-page {
+    line-height: 34px;
+}
+
+.total-page strong {
+    color: #427b86;
+}
+
+.order-status {
+    background-color: #1b89a0;
+    height: 65px;
+    line-height: 65px;
+
+}
+.order-status input[type="radio"] {
+    margin-top: 22px;
+}
+.order-status label {
+    color: #fff;
+}
+
+.order-status__title {
+    margin: 0;
+    line-height: 65px;
+}

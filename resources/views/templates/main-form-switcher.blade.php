@@ -1,0 +1,2 @@
+<form id="orderform" method="POST" action="/order/{{ $type }}" class="validateform" autocomplete="off" enctype="multipart/form-data">
+    <input type="hidden" name="formswitch" id="formswitch" value="{{ $type }}">
