@@ -4,11 +4,10 @@ CRM для одной из крупнейших торговых площадо�
 version 0.9 pre-release
 
 Главная страница
-![Главная страница](https://raw.githubusercontent.com/demiurge-ash/crm/master/CRM-homapage.png?token=AJTPAB5T3TWIP46L7FQBJ626XWJ3I)
+![Главная страница](https://github.com/demiurge-ash/crm/blob/master/CRM-homapage.png?raw=true)
 
 Страница заказа
-![Страница заказа](https://raw.githubusercontent.com/demiurge-ash/crm/master/CRM-new-order.png?token=AJTPAB5VK3ZKYLDBLCJMBS26XWJ6Y)
-
+![Страница заказа](https://github.com/demiurge-ash/crm/blob/master/CRM-new-order.png?raw=true)
 
 
 Copyright (c) 2020, Demiurge Ash All rights reserved.
